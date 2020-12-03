@@ -1,0 +1,73 @@
+user=input("What is your name? ")
+print(f"Hi {user}, I'm Dad!")
+print("Ha ha! I am DadJoke2020, a bot who can tell you the best dad jokes. But first, I need you to give me a number between 1 and 100.")
+
+Joke_1 = "I don't trust stairs. They're always up to something!"
+Joke_2 = "How does a penguin build its house? Igloos it together!"
+Joke_3 = "I decided to sell my vacuum cleaner, it was just gathering dust!"
+Joke_4 = "If a child refuses to sleep during nap time, are they guilty of resisting a rest?"
+Joke_5 = "Don't trust atoms. They make up everything!"
+Joke_6 = "Why do bees have sticky hair? Because they use a honeycomb!"
+Joke_7 = "Why don't eggs tell jokes? They'd crack each other up!"
+Joke_8 = "Did you hear what happened to the frog's car? He had to get it toad!"
+Joke_9 = "Why did the coffee file a police report? It got mugged!"
+Joke_10 = "When is a door not a door? When it's ajar!"
+condition = "start"
+
+while condition == "Yes" or "yes" or "start":
+    Num_1=int(input("What is your lucky number? "))
+
+    if Num_1 <= 10:
+        print(Joke_1)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 20:
+        print(Joke_2)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 30:
+        print(Joke_3)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 40:
+        print(Joke_4)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 50:
+        print(Joke_5)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 60:
+        print(Joke_6)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 70:
+        print(Joke_7)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 80:
+        print(Joke_8)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 90:
+        print(Joke_9)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    elif Num_1 <= 100:
+        print(Joke_10)
+        print("Ha ha! Get it?")
+        print(f"Thanks for using DadJoke2020, {user}.")
+
+    else:
+        print("Ha ha nice try! Looks like we've got two jokers around here. Your number needs to be a whole number between 1 and 100.")
+
+    condition = input("Would you like to try again? Type Yes to continue: ")
